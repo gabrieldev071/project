@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+    
+    .container__header__nav--button {
+        display: block;
+    }
+
+    .container__header__nav__list {
+        display: none;
+    }
+}
