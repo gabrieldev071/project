@@ -1,11 +1,15 @@
 
 /* Variables */
 
+
+:root {
+    font-size: 62.5%;  
+}
 /* Templates */
 
 .baseContainer {
     padding-left: 6%;
     padding-right: 6%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }

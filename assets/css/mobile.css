@@ -1,10 +1,30 @@
-@media (max-width: 600px) {
+@media (max-width: 999px) {
     
+    .container__header__nav__list {
+        display: none;
+        position: absolute;
+        top: 8vh;
+        left: 0;
+        width: 40vh;
+        height: 92vh;
+        background-color: #043d11;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .container__header_nav__list--item {
+        margin-right: 0;
+        /* opacity: 0; */
+    }
+
     .container__header__nav--button {
         display: block;
     }
 
-    .container__header__nav__list {
-        display: none;
+    /* when class active is enabled */
+    .container__header__nav.active .container__header__nav__list {  
+        display: flex;
     }
 }
